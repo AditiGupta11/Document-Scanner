@@ -1,5 +1,5 @@
 import numpy as np
-
+#to find the end coordinates of the document
 def mapp(h):
     h = h.reshape((4,2))
     hnew = np.zeros((4,2),dtype = np.float32)
